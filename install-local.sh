@@ -1,0 +1,1 @@
+cd qinglong-debian && appcenter-cli install-local && cd ../

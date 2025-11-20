@@ -1,0 +1,16 @@
+appname               = qinglong-debian
+version               = 0.1-debian
+display_name          = 青龙面板
+desc                  = <p><strong>使用 debian 镜像，避免 latest 镜像某些依赖不支持安装</strong></p></br>支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
+
+arch                  = x86_64
+source                = thirdparty
+
+maintainer            = whyour
+maintainer_url        = https://github.com/whyour/qinglong
+distributor           = BoB
+
+desktop_uidir         = ui
+desktop_applaunchname = qinglong-debian.Application
+
+service_port          = 5700

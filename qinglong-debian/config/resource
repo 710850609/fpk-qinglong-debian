@@ -1,0 +1,28 @@
+{
+    "docker-project":
+    {
+        "projects":
+        [
+            {
+                "name": "qinglong-debian",
+                "path": "docker"
+            }
+        ]
+    },
+    "data-share":
+    {
+        "shares":
+        [
+            {
+                "name": "qinglong-debian",
+                "permission":
+                {
+                    "rw":
+                    [
+                        "docker-qinglong-debian"
+                    ]
+                }
+            }
+        ]
+    }
+}

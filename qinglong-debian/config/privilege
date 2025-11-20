@@ -1,0 +1,8 @@
+{
+    "defaults":
+    {
+        "run-as": "package"
+    },
+    "username": "docker-qinglong-debian",
+    "groupname": "docker-qinglong-debian"
+}

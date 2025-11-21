@@ -7,4 +7,5 @@ services:
     ports:
       - "${TRIM_SERVICE_PORT}:5700"
     volumes:
-      - "/${TRIM_APPDEST_VOL}/@appshare/${TRIM_APPNAME}:/ql/data"
+      # 动态数据目录路径（var 文件夹）
+      - "${TRIM_PKGVAR}/data:/ql/data"

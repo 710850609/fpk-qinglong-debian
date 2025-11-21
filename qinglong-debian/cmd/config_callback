@@ -2,4 +2,10 @@
 
 ### This script is called after the user change environment variables in application setting page.
 
-exit 0
+LOG_FILE=${TRIM_PKGVAR}/apt_source.log
+
+echo "开始切换APT源: ${apt_source_type}"
+
+"/var/apps/${TRIM_APPNAME}/cmd/apt_change_mirror.sh" "${apt_source_type}" 2>>"${LOG_FILE}"
+
+exit $?

@@ -7,3 +7,11 @@
 </br>
 <a href="https://github.com/whyour/qinglong">青龙面板源码</a>
 </br>
+
+更新内容
+
+### 0.2
+- 支持切换APT源
+
+### 0.1 
+- 支持青龙面板使用

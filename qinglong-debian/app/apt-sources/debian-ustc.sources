@@ -1,0 +1,12 @@
+# Debian 12 bookworm 软件源 - 中科大镜像
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/debian
+Suites: bookworm bookworm-updates bookworm-backports
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/debian-security
+Suites: bookworm-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg

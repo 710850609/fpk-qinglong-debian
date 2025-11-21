@@ -1,7 +1,7 @@
 appname               = qinglong-debian
 version               = 0.1-debian
 display_name          = 青龙面板
-desc                  = <p><strong>使用 debian 镜像，避免 latest 镜像某些依赖不支持安装</strong></p></br>支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台
+desc                  = <p><strong>使用 debian 镜像，避免默认镜像某些依赖不支持安装</strong></p></br>支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台<br></br>✅ 支持更换APT软件源, 合适国内用户需要安装系统软件使用
 
 arch                  = x86_64
 source                = thirdparty
@@ -9,8 +9,10 @@ source                = thirdparty
 maintainer            = whyour
 maintainer_url        = https://github.com/whyour/qinglong
 distributor           = BoB
+distributor_url       = https://club.fnnas.com/home.php?mod=space&uid=33130&do=thread&view=me&from=space
 
 desktop_uidir         = ui
 desktop_applaunchname = qinglong-debian.Application
 
 service_port          = 5700
+checkport             = true

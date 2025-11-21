@@ -1,0 +1,49 @@
+[
+    {
+        "stepTitle": "软件源设置",
+        "items": [
+            {
+                "type": "radio",
+                "field": "apt_source_type",
+                "label": "APT源",
+                "initValue": "default",
+                "options": [
+                    {
+                        "label": "Debian官方源",
+                        "value": "default"
+                    },
+                    {
+                        "label": "清华源",
+                        "value": "tuna"
+                    },
+                    {
+                        "label": "阿里云源",
+                        "value": "aliyun"
+                    },
+                    {
+                        "label": "中科大源",
+                        "value": "ustc"
+                    }
+                ],
+                "rules": [
+                    {
+                        "required": true,
+                        "message": "请选软件源"
+                    }
+                ]
+            },
+            {
+                "type": "tips",
+                "helpText": "除官方均为国内镜像源，下载速度较快，建议选择其中之一以提升软件包下载速度。"
+            },
+            {
+                "type": "tips",
+                "helpText": "需要启动容器切换源后，系统会自动更新软件包列表，可能需要一些时间，请耐心等待。"
+            },
+            {
+                "type": "tips",
+                "helpText": "需要容器启动切换，确保容器能正常启动"
+            }
+        ]
+    }
+]

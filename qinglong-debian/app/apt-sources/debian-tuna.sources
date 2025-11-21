@@ -1,0 +1,12 @@
+# Debian 12 bookworm 软件源 - 清华大学镜像
+Types: deb
+URIs: https://mirrors.tuna.tsinghua.edu.cn/debian
+Suites: bookworm bookworm-updates bookworm-backports
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+Types: deb
+URIs: https://mirrors.tuna.tsinghua.edu.cn/debian-security
+Suites: bookworm-security
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg

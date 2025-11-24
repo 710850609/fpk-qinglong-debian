@@ -1,1 +1,1 @@
-cd adguard-home && appcenter-cli install-local && cd ../
+cd qinglong-debian && appcenter-cli install-local && cd ../

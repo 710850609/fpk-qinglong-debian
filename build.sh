@@ -1,5 +1,5 @@
-fpk_version=0.2
-qinglong_version="debian"
+fpk_version=0.1
+qinglong_version="latest"
 app_version="${fpk_version}-${qinglong_version}"
 fpk_name="qinglong-debian-${app_version}.fpk"
 
